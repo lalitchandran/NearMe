@@ -125,11 +125,17 @@ Pondicherry
 </html>
 ```
 ## OUTPUT
+Map
 ![alt text](myproj/myapp/static/map1.png)
+Chennai
 ![alt text](chennai.png)
+Vellore
 ![alt text](vellore.png)
+Comimbatore
 ![alt text](coimbatore.png)
+Madurai
 ![alt text](madurai.png)
+Pondicherry
 ![alt text](pondicherry.png)
 ## RESULT
 The program for implementing image maps using HTML is executed successfully.
