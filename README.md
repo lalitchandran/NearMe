@@ -125,6 +125,7 @@ Pondicherry
 </html>
 ```
 ## OUTPUT
+![alt text](myproj/myapp/static/map1.png)
 ![alt text](chennai.png)
 ![alt text](vellore.png)
 ![alt text](coimbatore.png)
