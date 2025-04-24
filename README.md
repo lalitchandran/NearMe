@@ -1,5 +1,5 @@
 # Ex04 Places Around Me
-## Date: 
+## Date: 24.4.25
 
 ## AIM
 To develop a website to display details about the places around my house.
@@ -27,115 +27,256 @@ Execute the programs and publish them.
 ## CODE
 map.html
 ```
+<html>
+    <head>
+        <title>My City</title>
+    </head>
+    <body>
+        <h1 align="center">
+            <font color="red"><b>KADAPPA ROAD</b></font>
+        </h1>
+        <h3 align="center">
+            <font color="blue"><b>S LALIT CHANDRAN (212223240077)</b></font>
+        </h3>
+        <center>
+            <img src="map.png" usemap="#MyCity" height="610" width="1450">
+            <map name="MapCity">
+                <area shape="rect" coords="700,250,850,400" href="home.html" title="My Home Town">
+                <area shape="circle" coords="570,230,45" href="temple.html" title="Murugan Temple">
+                <area shape="circle" coords="640,200,30" href="lake.html" title="Kolathur Lake">
+                <area shape="circle" coords="1120,360,25" href="garden.html" title="Garden">
+                <area shape="rect" coords="950,120,1100,140" href="stone.html" title="Mahabalipuram">
+            </map>
+        </center>
+    </body>
+</html>
+```
+Home
+```
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Map</title>
+    <title>My Home Town</title>
+    <style>
+        body {
+            background-color: yellow;
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+        h1 {
+            color: red;
+            text-align: center;
+        }
+        h3 {
+            text-align: center;
+            font-style: italic;
+            color: black;
+        }
+        hr {
+            border: 1px solid red;
+        }
+        p {
+            text-align: justify;
+            font-size: 16px;
+            padding: 0 10px;
+        }
+    </style>
 </head>
 <body>
-    <img src="map1.png" alt="Workplace" usemap="#workmap" height="756">
-    <map name="workmap">
-        <area shape="circle" coords="910,150,30" alt="Chennai" href="chennai.html">
-        <area shape="circle" coords="820,150,30" alt="Vellore" href="vellore.html">
-        <area shape="circle" coords="630,340,30" alt="Coimbatore" href="coimbatore.html">
-        <area shape="circle" coords="720,435,30" alt="Madurai" href="madurai.html">
-        <area shape="circle" coords="870,270,30" alt="Pondy" href="pondy.html">
-    </map>
+    <h1>My Home Town</h1>
+    <h3>Peaceful Living - Heart of Culture</h3>
+    <hr>
+    <p>
+        My hometown is a serene village nestled in the district of [Your District], in Tamil Nadu, India.
+        Surrounded by lush green fields and age-old temples, it is known for its cultural heritage and warm-hearted people.
+        The village thrives on agriculture, and the major crops include rice and sugarcane. The air is always filled with the
+        aroma of fresh earth and the sound of birds singing in harmony with nature.
+        My village is just 5km away from the nearest town, which serves as the hub for all major trade and services.
+        It's the place where traditions meet simplicity, making it a true haven for anyone seeking peace and purity.
+    </p>
 </body>
 </html>
+
 ```
-Chennai
+lake
 ```
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Chennai</title>
-    </head>
-    <body style="background-color: deepskyblue;">
-        <center>
-            <h1 style="color: rgb(255, 0, 128);letter-spacing: 2px;">Tamil Nadu</h1>
-            <h3 style="color: white; letter-spacing: 2px;">Chennai</h3>
-            <hr>
-            <p style="font-size: 20px;">Chennai, on the Bay of Bengal in eastern India, is the capital of the state of Tamil Nadu. The city is home to Fort St. George, built in 1644 and now a museum showcasing the city’s roots as a British military garrison and East India Company trading outpost, when it was called Madras. Religious sites include Kapaleeshwarar Temple, adorned with carved and painted gods, and St. Mary’s, a 17th-century Anglican church.</p>
-        </center>
-    </body>
+<head>
+    <title>Beautiful Lake</title>
+    <style>
+        body {
+            background-color: #add8e6;
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+        h1 {
+            color: navy;
+            text-align: center;
+        }
+        h3 {
+            text-align: center;
+            font-style: italic;
+        }
+        hr {
+            border: 1px solid navy;
+        }
+        p {
+            text-align: justify;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Serene Lake</h1>
+    <h3>Nature's Mirror - Calm & Tranquil</h3>
+    <hr>
+    <p>
+        The lake in our village is a serene spot surrounded by gentle hills and lush trees. It serves as a habitat for many birds and aquatic creatures.
+        Villagers often gather here in the evenings, and it's a popular spot for relaxation and picnics. The beauty of the lake during sunrise is truly breathtaking.
+    </p>
+</body>
 </html>
+
 ```
-Vellore
+garden
 ```
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Vellore</title>
-    </head>
-    <body style="background-color: rgb(0, 255, 102);">
-        <center>
-            <h1 style="color: rgb(255, 0, 128);letter-spacing: 2px;">Tamil Nadu</h1>
-            <h3 style="color: white; letter-spacing: 2px;">Vellore</h3>
-            <hr>
-            <p style="font-size: 20px;">Vellore is a city in the state of Tamil Nadu, in southern India. It's known for 16th-century Vellore Fort, with its imposing granite walls and surrounding moat. Inside the fort, the Jalakandeswarar Temple features many ornate sculptures. Nearby, the Government Museum has prehistoric relics and natural history displays. By the Palar River, the Muthu Mandapam memorial houses the tomb of a Tamil leader.</p>
-        </center>
-    </body>
+<head>
+    <title>Green Garden</title>
+    <style>
+        body {
+            background-color: #ccffcc;
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+        h1 {
+            color: green;
+            text-align: center;
+        }
+        h3 {
+            text-align: center;
+            font-style: italic;
+        }
+        hr {
+            border: 1px solid green;
+        }
+        p {
+            text-align: justify;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Village Garden</h1>
+    <h3>Blooming Beauty - A Breath of Fresh Air</h3>
+    <hr>
+    <p>
+        The village garden is full of vibrant flowers, medicinal plants, and fruit trees. It is well maintained by the local community and is a popular place for children to play and elders to relax.
+        Seasonal blooms and butterflies make it a magical experience for every visitor.
+    </p>
+</body>
 </html>
+
 ```
-Coimbatore
+temple
 ```
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Coimbatore</title>
-    </head>
-    <body style="background-color: rgb(255, 157, 0);">
-        <center>
-            <h1 style="color: rgb(255, 0, 128);letter-spacing: 2px;">Tamil Nadu</h1>
-            <h3 style="color: white; letter-spacing: 2px;">Coimbatore</h3>
-            <hr>
-            <p style="font-size: 20px;">Coimbatore is a city in the south Indian state of Tamil Nadu. To the northwest is the centuries-old, Dravidian-style Arulmigu Subramaniyaswami Temple, Marudamalai. The colorful and intricately carved Arulmigu Patteeswarar Swamy Temple lies southeast of here. In the center, the Gass Forest Museum has a huge collection of preserved animals and tree trunks. Southeast, birds and butterflies inhabit Singanallur Lake.</p>
-        </center>
-    </body>
+<head>
+    <title>Ancient Temple</title>
+    <style>
+        body {
+            background-color: #f4e2d8;
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+        h1 {
+            color: brown;
+            text-align: center;
+        }
+        h3 {
+            text-align: center;
+            font-style: italic;
+        }
+        hr {
+            border: 1px solid brown;
+        }
+        p {
+            text-align: justify;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ancient Temple</h1>
+    <h3>Spiritual Heritage - The Pride of Our Village</h3>
+    <hr>
+    <p>
+        The temple in our village dates back to centuries and is a fine example of Dravidian architecture. Carvings on the stone walls tell stories of
+        our past and traditions. The temple hosts many festivals throughout the year, bringing the community together in celebration and devotion.
+    </p>
+</body>
 </html>
+
 ```
-Madurai
+stone
 ```
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Madurai</title>
-    </head>
-    <body style="background-color: rgb(0, 255, 179);">
-        <center>
-            <h1 style="color: rgb(255, 0, 128);letter-spacing: 2px;">Tamil Nadu</h1>
-            <h3 style="color: white; letter-spacing: 2px;">Madurai</h3>
-            <hr>
-            <p style="font-size: 20px;">Madurai is an energetic, ancient city on the Vaigai River in the South Indian state of Tamil Nadu. Its skyline is dominated by the 14 colorful gopurams (gateway towers) of Meenakshi Amman Temple. Covered in bright carvings of Hindu gods, the Dravidian-style temple is a major pilgrimage site. Millions attend the processions and ceremonies of April's Chithirai Festival celebrating Meenakshi and Lord Vishnu.</p>
-        </center>
-    </body>
+<head>
+    <title>Mahabalipuram</title>
+    <style>
+        body {
+            background-color: yellow;
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+        h1 {
+            color: red;
+            text-align: center;
+        }
+        h3 {
+            text-align: center;
+            font-style: italic;
+        }
+        hr {
+            border: 1px solid red;
+        }
+        p {
+            text-align: justify;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gingee</h1>
+    <h3>Virpattu Big Stone - The Tourist Attraction</h3>
+    <hr>
+    <p>
+        The granitic rocks in the area were formed towards the end of the Archean Era of the geological time scale, due to magmatic action
+        leading to the melting of the older gneissic rocks and intrusion. The thickness of this younger granitic complex varies from 5 to 25 km.
+        Virpattu village is located in Gingee taluka of Viluppuram district in Tamil Nadu, India. Viluppuram and Gingee are the district & sub-district
+        headquarters of Virpattu village respectively. Gingee is the nearest town to Virpattu for all major economic activities, which is approximately
+        5km away.
+    </p>
+</body>
 </html>
-```
-Pondicherry
-```
-<html>
-    <head>
-        <title>Pondicherry</title>
-    </head>
-    <body style="background-color: deepskyblue;">
-        <center>
-            <h1 style="color: rgb(255, 0, 128);letter-spacing: 2px;">Tamil Nadu</h1>
-            <h3 style="color: white; letter-spacing: 2px;">Pondicherry</h3>
-            <hr>
-            <p style="font-size: 20px;">Pondicherry (or Puducherry), a French colonial settlement in India until 1954, is now a Union Territory town bounded by the southeastern Tamil Nadu state. Its French legacy is preserved in its French Quarter, with tree-lined streets, mustard-colored colonial villas and chic boutiques. A seaside promenade runs along the Bay of Bengal and passes several statues, including a 4m-high Gandhi Memorial.</p>
-        </center>
-    </body>
-</html>
+
 ```
 ## OUTPUT
 Map
-![alt text](myproj/myapp/static/map1.png)
-Chennai
-![alt text](chennai.png)
-Vellore
-![alt text](vellore.png)
-Comimbatore
-![alt text](coimbatore.png)
-Madurai
-![alt text](madurai.png)
-Pondicherry
-![alt text](pondicherry.png)
+![alt text](C:\Users\lalit\NearMe\bee\mapapp\static\map.png)
+lake
+![alt text](C:\Users\lalit\NearMe\bee\bee\1.png)
+home
+![alt text](C:\Users\lalit\NearMe\bee\bee\3.png)
+temple
+![alt text](C:\Users\lalit\NearMe\bee\bee\5.png)
+garden
+![alt text](C:\Users\lalit\NearMe\bee\bee\2.png)
+stone
+![alt text](C:\Users\lalit\NearMe\bee\bee\4.png)
 ## RESULT
 The program for implementing image maps using HTML is executed successfully.
