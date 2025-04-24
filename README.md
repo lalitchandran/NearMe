@@ -267,16 +267,22 @@ stone
 ```
 ## OUTPUT
 Map
-![alt text](C:\Users\lalit\NearMe\bee\mapapp\static\map.png)
+![map](https://github.com/user-attachments/assets/a7caba87-a945-434f-980e-84019266f8e0)
+
 lake
-![alt text](C:\Users\lalit\NearMe\bee\bee\1.png)
+![1](https://github.com/user-attachments/assets/0c72a31d-9d80-42a9-9826-d61e3502bc53)
+
 home
-![alt text](C:\Users\lalit\NearMe\bee\bee\3.png)
+![3](https://github.com/user-attachments/assets/5f45e7ff-cdef-4777-aa6a-453cad078ad8)
+
 temple
-![alt text](C:\Users\lalit\NearMe\bee\bee\5.png)
+![5](https://github.com/user-attachments/assets/9f97a905-7186-4b9a-9219-d0254528df74)
+
 garden
-![alt text](C:\Users\lalit\NearMe\bee\bee\2.png)
+![2](https://github.com/user-attachments/assets/9982b034-738b-4ac4-a891-b8705ce7b2f7)
+
 stone
-![alt text](C:\Users\lalit\NearMe\bee\bee\4.png)
+![4](https://github.com/user-attachments/assets/2eb77b37-88b6-4ec4-a066-e329f2d36ec9)
+
 ## RESULT
 The program for implementing image maps using HTML is executed successfully.
